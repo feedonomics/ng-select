@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { getNgSelectElement, selectOption, TestsErrorHandler, tickAndDetectChanges, triggerKeyDownEvent } from '../testing/helpers';
 import { KeyCode, NgOption } from './ng-select.types';
 import { MockConsole, MockNgZone } from '../testing/mocks';
-import { NgSelectComponent } from '@ng-select/ng-select';
+import { NgSelectComponent } from '@feedonomics/ng-select';
 import { NgSelectModule } from './ng-select.module';
 import { Subject } from 'rxjs';
 import { NgSelectConfig } from './config.service';

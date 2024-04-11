@@ -207,12 +207,14 @@ export class NgDropdownPanelComponent implements OnInit, OnChanges, OnDestroy {
     }
 
     private _handleScroll() {
+        const scrollElement = this.scrollElementRef.nativeElement;
+
         this._zone.runOutsideAngular(() => {
-            fromEvent(this.scrollElementRef.nativeElement, 'scroll')
+            fromEvent(scrollElement, 'scroll')
                 .pipe(takeUntil(this._destroy$), auditTime(0, SCROLL_SCHEDULER))
                 .subscribe((e: { path, composedPath, target }) => {
                     const path = e.path || (e.composedPath && e.composedPath());
-                    const scrollTop = !path || path.length === 0 ? e.target.scrollTop : path[0].scrollTop
+                    const scrollTop = !path || path.length === 0 ? scrollElement.scrollTop : path[0].scrollTop
                     this._onContentScrolled(scrollTop);
                 });
         });

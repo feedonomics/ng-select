@@ -1,7 +1,10 @@
 {
-  "name": "@ng-select/ng-option-highlight",
-  "version": "11.0.0",
-  "author": "@ng-select/ng-select",
+  "name": "@feedonomics/ng-option-highlight",
+  "version": "11.2.0",
+  "publishConfig": {
+    "@feedonomics:registry": "https://npm.pkg.github.com/"
+  },
+  "author": "@feedonomics/ng-select",
   "license": "MIT",
   "repository": "ng-select/ng-select",
   "peerDependencies": {

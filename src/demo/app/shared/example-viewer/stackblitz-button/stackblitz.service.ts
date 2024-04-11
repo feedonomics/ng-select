@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import sdk, {Project} from '@stackblitz/sdk';
+import sdk, { Project } from '@stackblitz/sdk';
 
 const EXAMPLE_PATH = '/ng-select/examples/';
 const TEMPLATE_PATH = '/ng-select/assets/stackblitz/';
@@ -27,8 +27,8 @@ const dependencies = {
     '@angular/platform-browser': angularVersion,
     '@angular/platform-browser-dynamic': angularVersion,
     '@angular/router': angularVersion,
-    '@ng-select/ng-select': '*',
-    '@ng-select/ng-option-highlight': '*',
+    '@feedonomics/ng-select': '*',
+    '@feedonomics/ng-option-highlight': '*',
     '@ng-bootstrap/ng-bootstrap': '*',
     'rxjs': '^6.5.3 || ^7.4.0',
     'zone.js': '^0.12.0'

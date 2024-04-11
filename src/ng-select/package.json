@@ -1,8 +1,11 @@
 {
-  "name": "@ng-select/ng-select",
-  "version": "11.0.0",
+  "name": "@feedonomics/ng-select",
+  "version": "11.2.0",
+  "publishConfig": {
+    "@feedonomics:registry": "https://npm.pkg.github.com/"
+  },
   "description": "Angular ng-select - All in One UI Select, Multiselect and Autocomplete",
-  "author": "@ng-select/ng-select",
+  "author": "@feedonomics/ng-select",
   "license": "MIT",
   "repository": "ng-select/ng-select",
   "engines": {

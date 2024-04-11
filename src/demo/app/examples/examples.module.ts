@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { NgOptionHighlightModule } from '@ng-select/ng-option-highlight';
-import { NgSelectModule } from '@ng-select/ng-select';
+import { NgOptionHighlightModule } from '@feedonomics/ng-option-highlight';
+import { NgSelectModule } from '@feedonomics/ng-select';
 import { AppendToExampleComponent } from './append-to-example/append-to-example.component';
 import { BindingsCustomExampleComponent } from './bindings-custom-example/bindings-custom-example.component';
 import { BindingsDefaultExampleComponent } from './bindings-default-example/bindings-default-example.component';
@@ -33,6 +33,7 @@ import { OutputEventsExampleComponent } from './output-events-example/output-eve
 import { SearchAutocompleteExampleComponent } from './search-autocomplete-example/search-autocomplete-example.component';
 import { SearchCustomExampleComponent } from './search-custom-example/search-custom-example.component';
 import { SearchDefaultExampleComponent } from './search-default-example/search-default-example.component';
+import { SearchEditableExampleComponent } from './search-editable-example/search-editable-example.component';
 import { TagsBackendExampleComponent } from './tags-backend-example/tags-backend-example.component';
 import { TagsClosedDropdownExampleComponent } from './tags-closed-dropdown-example/tags-closed-dropdown-example.component';
 import { TagsCustomExampleComponent } from './tags-custom-example/tags-custom-example.component';
@@ -45,7 +46,6 @@ import { TemplateOptgroupExampleComponent } from './template-optgroup-example/te
 import { TemplateOptionExampleComponent } from './template-option-example/template-option-example.component';
 import { TemplateSearchExampleComponent } from './template-search-example/template-search-example.component';
 import { VirtualScrollExampleComponent } from './virtual-scroll-example/virtual-scroll-example.component';
-import { SearchEditableExampleComponent } from './search-editable-example/search-editable-example.component';
 
 
 const examples = [DataSourceBackendExampleComponent,

@@ -19,10 +19,10 @@
       "dom",
     ],
     "paths": {
-      "@ng-select/ng-select": [
+      "@feedonomics/ng-select": [
         "src/ng-select/public-api.ts"
       ],
-      "@ng-select/ng-option-highlight": [
+      "@feedonomics/ng-option-highlight": [
         "src/ng-option-highlight/public-api.ts"
       ]
     },
